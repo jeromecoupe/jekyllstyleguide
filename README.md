@@ -21,7 +21,7 @@ Define components in the `_components` folder. Each component is output twice (c
 
 Display components in your templates using simple `{% for %}` loops.
 
-Simple `{% for %} loop to display all components (ordered using file names)
+Simple `{% for %}` loop to display all components (ordered using file names)
 
 ```liquid
 {% assign entries = site.components %}
