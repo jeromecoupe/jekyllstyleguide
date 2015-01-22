@@ -7,6 +7,10 @@ This is a simple styleguide generator in Jekyll. It is not particularily origina
 
 I used a custom collection (with output set to false) rather than posts or pages so I can use those to create more complex styleguides if needed.
 
+## Demo
+
+Here is what the [default output looks like](http://www.webstoemp.com/jekyllstyleguide).
+
 ## How it works
 
 Define components in the `_components` folder. Each component is output twice (code and preview) using a single include file `_includes/component.html`.
