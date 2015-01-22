@@ -42,7 +42,7 @@ Simple `{% for %} loop to display all components (ordered using file names)
 {% endfor %}
 ```
 
-When creating a more detailed style guides using pages, it is useful to be able to display only a certain type of components in your pages using a `where` parameter in your {% for %}` loop
+When creating a more detailed style guides using pages, it is useful to be able to display only a certain type of components in your pages using a `where` parameter in your `{% for %}` loop
 
 ```liquid
 {% assign entries = site.components | where:"type","buttons" %}
