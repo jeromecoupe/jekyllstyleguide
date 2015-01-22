@@ -1,0 +1,18 @@
+<article class="sg-component">
+
+  <header class="sg-component__header">
+    <h2 class="sg-component__title">{{ entry.title }}</h2>
+    <p class="sg-component__sass">Sass file: {{ entry.scss }}</p>
+  </header>
+  <div class="sg-component__body">
+    <div class="sg-component__display">
+      {{ entry.content }}
+    </div>
+    <div class="sg-component__source">
+      {% highlight html %}
+        {{ entry.content }}
+      {% endhighlight %}
+    </div>
+  </div>
+
+</article>
