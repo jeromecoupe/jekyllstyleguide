@@ -5,7 +5,7 @@ This is a simple styleguide generator in Jekyll. It is not particularily origina
 - simple list-based styleguides ([Code for America styleguide](http://codeforamerica.clearleft.com/) by [Clearleft](http://clearleft.com/))
 - more complex styleguides using posts or pages ([Lonely Planet "Rizzo" styleguide](http://rizzo.lonelyplanet.com/styleguide/design-elements/colours) by [Lonely Planet](http://www.lonelyplanet.com/))
 
-I used a custom collection rather than posts or pages so I can use those to create more complex styleguides if needed.
+I used a custom collection (with output set to false) rather than posts or pages so I can use those to create more complex styleguides if needed.
 
 ## How it works
 
@@ -13,11 +13,11 @@ Define components in the `_components` folder. Each component is output twice (c
 
 - The `type` variable in components is used to be able to group them (using the `group_by` parameter) or only display a certain type of components (using the `where` parameter) in more complex style guides.
 - The `sass` variable is used to reference the sass file for all the CSS rules applied to each component.
-- Easy to expand the list of component variables: maybe you need notes or js files. Just update your components YAML front matter and your component template and you're good to go.
+- Easy to expand the list of component variables: maybe you need notes or js files. Just update your components YAML front matter and your component include and you're good to go.
 
 Display components in your templates using simple `{% for %}` loops.
 
-Simple `{% for %} loop displayig all components (ordered using file names)
+Simple `{% for %} loop to display all components (ordered using file names)
 
 ```liquid
 {% assign entries = site.components %}
@@ -36,8 +36,6 @@ Simple `{% for %} loop displayig all components (ordered using file names)
     {% include component.html %}
   {% endfor %}
 {% endfor %}
-
-{% endcomment %}
 ```
 
 When creating a more detailed style guides using pages, it is useful to be able to display only a certain type of components in your pages using a `where` parameter in your {% for %}` loop
