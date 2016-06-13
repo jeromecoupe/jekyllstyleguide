@@ -50,3 +50,10 @@ When creating a more detailed style guides using pages, it is useful to be able 
   {% include component.html %}
 {% endfor %}
 ```
+
+## Dependancies
+This project requires [Jekyll](https://jekyllrb.com/) and leverages [Pygments](http://pygments.org/) for syntax highlighting.
+
+`gem install jekyll`
+
+`gem install pygments.rb`
