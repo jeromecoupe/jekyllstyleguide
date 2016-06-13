@@ -15,7 +15,7 @@ collections:
 # Front Matter Defaults
 
 # General settings
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
