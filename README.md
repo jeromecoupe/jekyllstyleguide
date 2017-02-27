@@ -1,15 +1,15 @@
-# Simple Jekyll based styleguide
+# Simple Jekyll based style guide
 
 This is a simple style guide generator in [Jekyll](http://jekyllrb.com). It is not particularly original but I tried to make it as flexible as possible to correspond to various use cases.
 
-- simple list-based style guides ([Code for America styleguide](http://codeforamerica.clearleft.com/) by [Clearleft](http://clearleft.com/))
+- simple list-based style guides ([Code for America style guide](http://codeforamerica.clearleft.com/) by [Clearleft](http://clearleft.com/))
 - more complex style guides using posts or pages ([Lonely Planet "Rizzo" style guide](http://rizzo.lonelyplanet.com/styleguide/design-elements/colours) by [Lonely Planet](http://www.lonelyplanet.com/))
 
 I used a custom collection (with output set to false) rather than posts or pages so I can use those to create more complex style guides if needed.
 
 ## Demo
 
-Here is what the [default output looks like](http://www.webstoemp.com/jekyllstyleguide).
+Here is what the [default output looks like](http://jeromecoupe.github.io/jekyllstyleguide/).
 
 ## How it works
 
